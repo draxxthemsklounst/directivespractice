@@ -1,0 +1,7 @@
+<button class="btn btn-primary"
+        
+        (click) = "detailsVisibleInvert();
+                   timestampLog()"
+        >Display Details</button>
+<p *ngIf="detailsVisible">Secret Password = 'tuna'</p>
+<p *ngFor="let click of clickLog" >{{logDate}}</p>
